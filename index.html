@@ -59,13 +59,28 @@
     .links a {
       display: inline-block;
       margin: 0.5rem 1rem;
-      color: #005792;
       text-decoration: none;
       font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: white;
+      transition: background-color 0.3s ease;
     }
 
-    .links a:hover {
-      text-decoration: underline;
+    .links a.linkedin {
+      background-color: #0077B5;
+    }
+
+    .links a.github {
+      background-color: #24292e;
+    }
+
+    .links a.linkedin:hover {
+      background-color: #005582;
+    }
+
+    .links a.github:hover {
+      background-color: #000;
     }
   </style>
 </head>
@@ -96,8 +111,8 @@
   <footer>
     <h2>Connect With Me</h2>
     <div class="links">
-      <a href="https://www.linkedin.com/in/atharv-belhekar-64464b319/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Atharv9865" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/atharv-belhekar-64464b319/" class="linkedin" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Atharv9865" class="github" target="_blank">GitHub</a>
     </div>
     &copy; 2025 Atharv Belhekar. All Rights Reserved.
   </footer>
